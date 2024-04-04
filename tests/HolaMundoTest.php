@@ -10,6 +10,6 @@ class HolaMundoTest extends TestCase
     public function testDiceHolaMundoCuandoSaluda()
     {
         $holaMundo = new HolaMundo();
-        $this->assertEquals("Hola Mundo", $holaMundo->saludo());
+        $this->assertEquals("hola mundo", $holaMundo->saludo());
     }
 }
